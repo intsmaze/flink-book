@@ -57,9 +57,8 @@
 # 2. 技术咨询
 ## 2.1 购书读者免费进群
 **购买本书的读者可以免费加入作者的QQ群，可以获得作者分享的最新技术文章，该群会不定时更新flink新版本中新特性的演示代码和内容讲解。**
-QQ群号：941266442
   
-书籍目录 [点击查看详细目录](https://www.cnblogs.com/intsmaze/)
+QQ群号：941266442 [群二维码无法显示可跳转该页面扫码](https://www.cnblogs.com/intsmaze/)
 ![image](https://github.com/intsmaze/flink-book/blob/master/QQ.jpg)
 
 # 3. [懒松鼠Flink-Boot脚手架工程](https://github.com/intsmaze/flink-book/blob/master/%E7%9B%AE%E5%BD%95.md)
