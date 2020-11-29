@@ -1,7 +1,7 @@
 # 1.《深入理解Flink核心设计与实践原理》-随书代码
-* **针对Flink的DataStream API,DataSet API,Table API进行了全面的讲解，相关特性均有完整的代码供读者运行和测试。**
+* 针对Flink的DataStream API,DataSet API,Table API进行了全面的讲解，相关特性均有完整的代码供读者运行和测试。
 * **整个工程共有【182个Java文件】，你要的Demo这里都有。**
-* **本书是以Flink技术框架来讲解流计算这一技术领域的，但是流计算领域开发所面临的各种问题同样是Java后端开发者在进行服务端开发时所要面临的，比如有状态计算、Exactly Once语义等。因此Flink框架为解决这些问题而设计的方案同样值得Jave后端开发者借鉴。**
+* 本书是以Flink技术框架来讲解流计算这一技术领域的，但是流计算领域开发所面临的各种问题同样是Java后端开发者在进行服务端开发时所要面临的，比如有状态计算、Exactly Once语义等。因此Flink框架为解决这些问题而设计的方案同样值得Jave后端开发者借鉴。
 ### 《深入理解Flink核心设计与实践原理》一书中针对该工程中的Flink示例代码进行了大量的详细讲解，为此推荐大家购买《深入理解Flink核心设计与实践原理》一书来获得更好的学习体验。
 
 ## 1.1 书籍目录 [点击查看详细目录](https://github.com/intsmaze/flink-book/blob/master/%E7%9B%AE%E5%BD%95.md)
