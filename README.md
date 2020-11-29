@@ -61,10 +61,11 @@
 QQ群号：941266442 [群二维码无法显示可跳转该页面扫码](https://www.cnblogs.com/intsmaze/)
 ![image](https://github.com/intsmaze/flink-book/blob/master/QQ.jpg)
 
-# 3. [懒松鼠Flink-Boot脚手架工程](https://github.com/intsmaze/flink-book/blob/master/%E7%9B%AE%E5%BD%95.md)
-1. 该脚手架工程集成Spring框架进行Bean管理，同时对Flink非转换操作代码进行封装，屏蔽掉Flink的API组装细节，使得普通开发者可以面向JAVA编程，快速编写业务代码。
-2. **使用该脚手架工程可以满足一个项目组仅需一名开发人员具备Flink的基本知识，其他人员甚至不需要懂Flink，整个项目组都可以使用Flink框架解决业务中的痛点问题。**
-3. **[关于该脚手架工程详情移步。](https://github.com/intsmaze/flink-book/blob/master/%E7%9B%AE%E5%BD%95.md)**
+# 3. [懒松鼠Flink-Boot脚手架工程](https://github.com/intsmaze/flink-boot)
+1. 懒松鼠Flink-Boot脚手架屏蔽掉组装Flink API细节。
+2. 懒松鼠Flink-Boot脚手架全面基础Spirng生态体系，让跨界变得简单，使得开发者能以传统Java WEB模式的开发方式开发出具备分布式计算能力的流处理程序。
+3. **懒松鼠Flink-Boot脚手架可以满足一个项目组仅需一名开发人员具备Flink的基本知识，其他人员甚至不需要懂Flink，整个项目组都可以使用Flink框架解决业务中的痛点问题。**
+4. **[关于懒松鼠Flink-Boot脚手架工程详情移步。](https://github.com/intsmaze/flink-boot)**
 
 
 ## 3.1 除此之外针对目前流行的各大Java框架，懒松鼠Flink-Boot脚手架工程也进行了集成，加快开发人员的编码速度。
