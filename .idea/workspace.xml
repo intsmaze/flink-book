@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8f4ff7a1-01c6-4ce2-a2ce-db0b2f267f8c" name="Default Changelist" comment="深入理解Flink核心设计与实践原理">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/flink-streaming/target/" />
+    <ignored path="$PROJECT_DIR$/flinkstreaming/target/" />
+    <ignored path="$PROJECT_DIR$/flink-sql/target/" />
+    <ignored path="$PROJECT_DIR$/flink-dataset/target/" />
+    <ignored path="$PROJECT_DIR$/flink-queay-state/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/flink-streaming/src/main/java/com/intsmaze/flink/streaming/sideoutput/SideOutputTemplate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>CustomSource</find>
+      <find>BatchGroupBean</find>
+      <find>CustomPartitionerWrapper</find>
+      <find>WordCountData</find>
+      <find>snapshotState</find>
+      <find>setpare</find>
+      <find>DataStreamSource</find>
+      <find>setParallelism(</find>
+      <find>WordCountTemplate</find>
+      <find>Trade</find>
+      <find>ClickEvent</find>
+      <find>Checkpointed</find>
+      <find>Evictor</find>
+      <find>UserDefindProcessWindow</find>
+      <find>UserCustomMapFunction</find>
+      <find>UserCustomS</find>
+      <find>bewteen</find>
+      <find>isrestore</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>DataStream</replace>
+      <replace>between</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/schema/EventBeanSchema.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/schema/OrderEventSchema.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/sideoutput/SideOutputTemplate.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/broadcast/BroadcastStateTemplate.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/key/AggregatingStateFlatMap.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/key/KeyStateBase.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/key/ListStateFlatMap.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/key/MapStateFlatMap.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/key/ReducingStateFlatMap.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/key/TTLStateFlatMap.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/key/ValueStateFlatMap.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/operator/CheckpointedMapTemplate.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/operator/ListCheckpointedMapTemplate.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/savepoint/SavePointedTemplate.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/stateback/RocksDBOptions.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/join/ClickBean.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/join/IntervalJoinTemplate.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/join/PrepareData.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/join/Trade.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/join/TumblingWindowCoGroupTemplate.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/join/TumblingWindowJoinTemplate.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/evitor/CountEvictorDebug.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/evitor/TumblingWindowEvitorTemplate.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/lateness/EventTimeTriggerDebug.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/trigger/CountTriggerDebug.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/trigger/TumblingWindowTriggerTemplate.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/windows/WindowsTemplate.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/ApplyWindowTemplate.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/CustomWindowAggregateTemplate.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/ProcessWindowAggregateTemplate.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/ProcessWindowFoldTemplate.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/ProcessWindowReduceTemplate.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/ProcessWindowTemplate.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/WindowAggregateTemplate.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/WindowFoldTemplate.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/WindowReduceTemplate.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/WindowsDesc.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/source/Data.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/source/SourceForWindow.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/source/SourceWithTimestampsWatermarks.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/source/SourceWithTimestamps.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/time/bean/EventBean.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/time/watermark/EventTimePunctuatedWaterMarks.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/time/watermark/EventTimeWaterMarks.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/time/EventTimeTemplate.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/util/TimeStampUtils.java" />
+        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/util/TimeUtils.java" />
+        <option value="$PROJECT_DIR$/flink-queay-state/pom.xml" />
+        <option value="$PROJECT_DIR$/flink-queay-state/src/main/java/com/intsmaze/flink/query/QueryStateClient.java" />
+        <option value="$PROJECT_DIR$/flink-stream/pom.xml" />
+        <option value="$PROJECT_DIR$/flink-streaming/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/develop/maven/apache-maven-3.0.5" />
+        <option name="userSettingsFile" value="C:\develop\maven\apache-maven-3.0.5\repository\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-33" />
+    <option name="y" value="84" />
+    <option name="width" value="1890" />
+    <option name="height" value="960" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="flink-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-book" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-streaming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-book" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-book" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-book" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-book" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="streaming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-book" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="sideoutput" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606616684826" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/flink-streaming" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\develop\flink-book\flink-dataset\src\test\resources" />
+      <recent name="D:\develop\flink-book\flink-dataset\src\main\resources" />
+      <recent name="D:\develop\flink-book\flink-dataset\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.intsmaze.flink.query" />
+      <recent name="com.intsmaze.flink.streaming.window.time" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\develop1\flink-book" />
+      <recent name="D:\develop1\flink-book\flink-streaming\src\main\resources" />
+      <recent name="D:\develop1\flink-book\flink-streaming\src\main\java" />
+      <recent name="D:\develop\flink-book" />
+      <recent name="D:\develop\flink-book\flink-sql\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.SideOutputTemplate.testSideOutput">
+    <configuration name="ConstructorTemplate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.intsmaze.flink.streaming.param.ConstructorTemplate" />
+      <module name="flink-stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.intsmaze.flink.streaming.param.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntervalJoinTemplate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.intsmaze.flink.streaming.window.join.IntervalJoinTemplate" />
+      <module name="flink-stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.intsmaze.flink.streaming.window.join.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.intsmaze.flink.streaming.helloworld.WordCount" />
+      <module name="flink-stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.intsmaze.flink.streaming.helloworld.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JoinTemplate.testDataSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="flink-sql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.intsmaze.flink.table.sqlapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.intsmaze.flink.table.sqlapi" />
+      <option name="MAIN_CLASS_NAME" value="com.intsmaze.flink.table.sqlapi.JoinTemplate" />
+      <option name="METHOD_NAME" value="testDataSet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SideOutputTemplate.testSideOutput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="flink-streaming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.intsmaze.flink.streaming.sideoutput.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.intsmaze.flink.streaming.sideoutput" />
+      <option name="MAIN_CLASS_NAME" value="com.intsmaze.flink.streaming.sideoutput.SideOutputTemplate" />
+      <option name="METHOD_NAME" value="testSideOutput" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SideOutputTemplate.testSideOutput" />
+        <item itemvalue="Application.WordCount" />
+        <item itemvalue="JUnit.JoinTemplate.testDataSet" />
+        <item itemvalue="Application.ConstructorTemplate" />
+        <item itemvalue="Application.IntervalJoinTemplate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f4ff7a1-01c6-4ce2-a2ce-db0b2f267f8c" name="Default Changelist" comment="" />
+      <created>1596378496837</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596378496837</updated>
+      <workItem from="1596378498248" duration="286000" />
+      <workItem from="1596378853399" duration="4762000" />
+      <workItem from="1596460021103" duration="7321000" />
+      <workItem from="1596716363919" duration="1742000" />
+      <workItem from="1597238382200" duration="31000" />
+      <workItem from="1597652512471" duration="2397000" />
+      <workItem from="1597920507971" duration="11000" />
+      <workItem from="1599892647336" duration="2467000" />
+      <workItem from="1599897331554" duration="69000" />
+      <workItem from="1599903552247" duration="3433000" />
+      <workItem from="1599910081264" duration="5478000" />
+      <workItem from="1599958712041" duration="6978000" />
+      <workItem from="1599985335730" duration="3586000" />
+      <workItem from="1600170357437" duration="5279000" />
+      <workItem from="1600270769643" duration="1365000" />
+      <workItem from="1600352286520" duration="5331000" />
+      <workItem from="1600433803747" duration="9725000" />
+      <workItem from="1600479004435" duration="12851000" />
+      <workItem from="1600568107610" duration="7907000" />
+      <workItem from="1600617305451" duration="1942000" />
+      <workItem from="1602511845921" duration="4452000" />
+      <workItem from="1602673174394" duration="9888000" />
+      <workItem from="1602767196166" duration="1168000" />
+      <workItem from="1602922105100" duration="1408000" />
+      <workItem from="1603014153627" duration="3527000" />
+      <workItem from="1603369641703" duration="1025000" />
+      <workItem from="1603457079725" duration="2964000" />
+      <workItem from="1603532429883" duration="1033000" />
+      <workItem from="1604972998298" duration="5695000" />
+      <workItem from="1605009897907" duration="36000" />
+      <workItem from="1605404415197" duration="335000" />
+      <workItem from="1606223824970" duration="285000" />
+      <workItem from="1606305109170" duration="1307000" />
+      <workItem from="1606613695867" duration="63000" />
+      <workItem from="1606614846609" duration="1409000" />
+    </task>
+    <task id="LOCAL-00001" summary="备份">
+      <created>1596470102418</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596470102418</updated>
+    </task>
+    <task id="LOCAL-00002" summary="format">
+      <created>1596718017244</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596718017244</updated>
+    </task>
+    <task id="LOCAL-00003" summary="format">
+      <created>1599911563554</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599911563554</updated>
+    </task>
+    <task id="LOCAL-00004" summary="format">
+      <created>1599959789465</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599959789465</updated>
+    </task>
+    <task id="LOCAL-00005" summary="format">
+      <created>1599985010365</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599985010365</updated>
+    </task>
+    <task id="LOCAL-00006" summary="format">
+      <created>1599988547275</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599988547275</updated>
+    </task>
+    <task id="LOCAL-00007" summary="format">
+      <created>1600517666189</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600517666190</updated>
+    </task>
+    <task id="LOCAL-00008" summary="format">
+      <created>1600517960903</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600517960903</updated>
+    </task>
+    <task id="LOCAL-00009" summary="format">
+      <created>1600568915958</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1600568915958</updated>
+    </task>
+    <task id="LOCAL-00010" summary="备份">
+      <created>1602512479946</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602512479946</updated>
+    </task>
+    <task id="LOCAL-00011" summary="添加注释">
+      <created>1602513683380</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1602513683380</updated>
+    </task>
+    <task id="LOCAL-00012" summary="添加注释">
+      <created>1602514934838</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1602514934838</updated>
+    </task>
+    <task id="LOCAL-00013" summary="添加注释">
+      <created>1602515585903</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1602515585903</updated>
+    </task>
+    <task id="LOCAL-00014" summary="添加注释">
+      <created>1602516056740</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1602516056740</updated>
+    </task>
+    <task id="LOCAL-00015" summary="添加注释">
+      <created>1602673207349</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1602673207349</updated>
+    </task>
+    <task id="LOCAL-00016" summary="添加注释">
+      <created>1602675307125</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1602675307125</updated>
+    </task>
+    <task id="LOCAL-00017" summary="添加注释">
+      <created>1602677270222</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1602677270222</updated>
+    </task>
+    <task id="LOCAL-00018" summary="添加注释">
+      <created>1602678176832</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1602678176832</updated>
+    </task>
+    <task id="LOCAL-00019" summary="添加注释">
+      <created>1602681795052</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1602681795052</updated>
+    </task>
+    <task id="LOCAL-00020" summary="添加注释">
+      <created>1602767291689</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1602767291689</updated>
+    </task>
+    <task id="LOCAL-00021" summary="添加注释">
+      <created>1604974179176</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1604974179176</updated>
+    </task>
+    <task id="LOCAL-00022" summary="添加注释">
+      <created>1604976681371</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1604976681371</updated>
+    </task>
+    <task id="LOCAL-00023" summary="深入理解Flink核心设计与实践原理">
+      <created>1605008243297</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1605008243297</updated>
+    </task>
+    <task id="LOCAL-00024" summary="深入理解Flink核心设计与实践原理">
+      <created>1606224003438</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1606224003439</updated>
+    </task>
+    <task id="LOCAL-00025" summary="深入理解Flink核心设计与实践原理">
+      <created>1606305226993</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1606305226993</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="GroupWindowTemplate_testProcessTime - 2020.09.12 at 21h 34m 54s.xml">
+      <configuration name="GroupWindowTemplate.testProcessTime" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GroupReduceTemplate_reduceGroup - 2020.09.13 at 15h 12m 06s.xml">
+      <configuration name="GroupReduceTemplate.reduceGroup" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GroupReduceTemplate_reduceGroup_(1) - 2020.09.13 at 15h 13m 42s.xml">
+      <configuration name="GroupReduceTemplate.reduceGroup (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GroupReduceTemplate_reduceGroup_(2) - 2020.09.13 at 15h 22m 41s.xml">
+      <configuration name="GroupReduceTemplate.reduceGroup (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GroupReduceTemplate_reduceGroup_(3) - 2020.09.13 at 15h 23m 09s.xml">
+      <configuration name="GroupReduceTemplate.reduceGroup (3)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GroupReduceTemplate_testSortedGroups - 2020.09.13 at 15h 24m 44s.xml">
+      <configuration name="GroupReduceTemplate.testSortedGroups" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GroupReduceTemplate_testCombinableGroups - 2020.09.13 at 15h 24m 59s.xml">
+      <configuration name="GroupReduceTemplate.testCombinableGroups" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JoinTemplate_testDataSet - 2020.10.14 at 21h 13m 56s.xml">
+      <configuration name="JoinTemplate.testDataSet" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="117556000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25707355" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21669628" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.42273533" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32677165" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.38543516" />
+      <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.4742451" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="format" />
+    <MESSAGE value="备份" />
+    <MESSAGE value="添加注释" />
+    <MESSAGE value="深入理解Flink核心设计与实践原理" />
+    <option name="LAST_COMMIT_MESSAGE" value="深入理解Flink核心设计与实践原理" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/partition/RescalingTemplate.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/key/AggregatingStateFlatMap.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/key/AverageAccumulator.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/key/KeyStateBase.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/key/ListStateFlatMap.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/key/MapStateFlatMap.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/key/ReducingStateFlatMap.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/key/TTLStateFlatMap.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/key/ValueStateFlatMap.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/operator/CheckpointedMapTemplate.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/operator/ListCheckpointedMapTemplate.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/savepoint/SavePointedTemplate.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/stateback/RocksDBOptions.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/join/ClickBean.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/join/IntervalJoinTemplate.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/join/PrepareData.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/join/Trade.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/join/TumblingWindowCoGroupTemplate.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/join/TumblingWindowJoinTemplate.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/evitor/CountEvictorDebug.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/evitor/TumblingWindowEvitorTemplate.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/lateness/EventTimeTriggerDebug.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/trigger/CountTriggerDebug.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/trigger/TumblingWindowTriggerTemplate.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/windows/WindowsTemplate.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/ApplyWindowTemplate.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/CustomWindowAggregateTemplate.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/ProcessWindowAggregateTemplate.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/ProcessWindowFoldTemplate.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/ProcessWindowReduceTemplate.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/ProcessWindowTemplate.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/WindowAggregateTemplate.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/WindowFoldTemplate.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/WindowReduceTemplate.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/WindowsDesc.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/source/Data.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/time/bean/EventBean.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/time/watermark/EventTimePunctuatedWaterMarks.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/time/watermark/EventTimeWaterMarks.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/util/TimeStampUtils.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/util/TimeUtils.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/source/SourceWithTimestamps.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/source/SourceWithTimestampsWatermarks.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/time/EventTimeTemplate.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/source/SourceForWindow.java" />
+    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/bean/ClickSchemaEvent.java" />
+    <entry file="file://$PROJECT_DIR$/flink-queay-state/src/main/java/com/intsmaze/flink/query/QueryStateClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="58" column="7" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-stream/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/flink-streaming/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4009">
+          <caret line="211" column="12" selection-start-line="211" selection-start-column="12" selection-end-line="211" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-streaming/src/main/java/com/intsmaze/flink/streaming/programpackage/PackageProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-queay-state/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-streaming/src/main/java/com/intsmaze/flink/streaming/sideoutput/SideOutputTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>flink-streaming</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: log4j:log4j:1.2.17</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

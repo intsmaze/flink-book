@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/flink-book.iml" filepath="$PROJECT_DIR$/flink-book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-dataset/flink-dataset.iml" filepath="$PROJECT_DIR$/flink-dataset/flink-dataset.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-queay-state/flink-queay-state.iml" filepath="$PROJECT_DIR$/flink-queay-state/flink-queay-state.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-sql/flink-sql.iml" filepath="$PROJECT_DIR$/flink-sql/flink-sql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-streaming/flink-streaming.iml" filepath="$PROJECT_DIR$/flink-streaming/flink-streaming.iml" />
+    </modules>
+  </component>
+</project>
