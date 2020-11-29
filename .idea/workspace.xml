@@ -24,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/flink-streaming/src/main/java/com/intsmaze/flink/streaming/sideoutput/SideOutputTemplate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+            <state relative-caret-position="190">
+              <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,7 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/schema/EventBeanSchema.java" />
         <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/schema/OrderEventSchema.java" />
         <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/sideoutput/SideOutputTemplate.java" />
         <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/broadcast/BroadcastStateTemplate.java" />
@@ -125,6 +124,7 @@
         <option value="$PROJECT_DIR$/flink-queay-state/src/main/java/com/intsmaze/flink/query/QueryStateClient.java" />
         <option value="$PROJECT_DIR$/flink-stream/pom.xml" />
         <option value="$PROJECT_DIR$/flink-streaming/pom.xml" />
+        <option value="$PROJECT_DIR$/flink-streaming/src/main/java/com/intsmaze/flink/streaming/sideoutput/SideOutputTemplate.java" />
       </list>
     </option>
   </component>
@@ -141,11 +141,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-33" />
-    <option name="y" value="84" />
-    <option name="width" value="1890" />
-    <option name="height" value="960" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="769" />
+    <option name="y" value="10" />
+    <option name="width" value="1941" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -215,7 +215,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606616684826" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606616759813" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/flink-streaming" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -381,7 +381,7 @@
       <workItem from="1606223824970" duration="285000" />
       <workItem from="1606305109170" duration="1307000" />
       <workItem from="1606613695867" duration="63000" />
-      <workItem from="1606614846609" duration="1409000" />
+      <workItem from="1606614846609" duration="1695000" />
     </task>
     <task id="LOCAL-00001" summary="备份">
       <created>1596470102418</created>
@@ -586,12 +586,16 @@
     <history-entry file="JoinTemplate_testDataSet - 2020.10.14 at 21h 13m 56s.xml">
       <configuration name="JoinTemplate.testDataSet" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SideOutputTemplate_testSideOutput - 2020.11.29 at 10h 23m 33s.xml">
+      <configuration name="SideOutputTemplate.testSideOutput" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117556000" />
+    <option name="totallyTimeSpent" value="117842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25707355" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -602,7 +606,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21669628" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5186501" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -610,7 +614,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.42273533" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32677165" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3250444" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.38543516" />
@@ -738,8 +742,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flink-streaming/src/main/java/com/intsmaze/flink/streaming/sideoutput/SideOutputTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+        <state relative-caret-position="190">
+          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
