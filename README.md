@@ -1,8 +1,9 @@
 # 1.《深入理解Flink核心设计与实践原理》-随书代码
-* 针对Flink的DataStream API,DataSet API,Table API进行了全面的讲解，相关特性均有完整的代码供读者运行和测试。
 * **整个工程共有【182个Java文件】，你要的Demo这里都有。**
-* 本书是以Flink技术框架来讲解流计算这一技术领域的，但是流计算领域开发所面临的各种问题同样是Java后端开发者在进行服务端开发时所要面临的，比如有状态计算、Exactly Once语义等。因此Flink框架为解决这些问题而设计的方案同样值得Jave后端开发者借鉴。
-### 《深入理解Flink核心设计与实践原理》一书中针对该工程中的Flink示例代码进行了大量的详细讲解，为此推荐大家购买《深入理解Flink核心设计与实践原理》一书来获得更好的学习体验。
+### 《深入理解Flink核心设计与实践原理》一书中针对该工程中的Flink示例代码进行了大量的详细讲解，为此推荐大家购买《深入理解Flink核心设计与实践原理》一书来获得更好的学习体验。[购买地址](www.baidu.com)
+* 本书从Apache Flink的缘起开始，由浅入深，理论结合实践，全方位地介绍Apache Flink这一处理海量数据集的高性能工具。本书围绕部署、流处理、批处理、Table API和SQL四大模块进行讲解，并详细说明Apache Flink的每个特性的实际业务背景，使读者不仅能编写可运行的Apache Flink程序代码，还能深刻理解并正确地将其运用到合适的生产业务环境中。
+* 虽然本书是以Apache Flink技术框架来讲解流计算技术的，但是流计算领域开发所面临的各种问题同样是Java后端开发者在进行服务端开发时所要面临的，如有状态计算、Exactly Once语义等。因此，Apache Flink框架为解决这些问题而设计的方案同样值得Java后端开发者借鉴。
+
 
 ## 1.1 书籍目录 [点击查看详细目录](https://github.com/intsmaze/flink-book/blob/master/%E7%9B%AE%E5%BD%95.md)
 本书针对Flink如下特性进行了详细的代码演示。
@@ -61,47 +62,4 @@
 QQ群号：941266442 [群二维码无法显示可跳转该页面扫码](https://www.cnblogs.com/intsmaze/)
 ![image](https://github.com/intsmaze/flink-book/blob/master/QQ.jpg)
 
-# 3. [懒松鼠Flink-Boot脚手架工程](https://github.com/intsmaze/flink-boot)
-1. 懒松鼠Flink-Boot脚手架屏蔽掉组装Flink API细节。
-2. 懒松鼠Flink-Boot脚手架全面基础Spirng生态体系，让跨界变得简单，使得开发者能以传统Java WEB模式的开发方式开发出具备分布式计算能力的流处理程序。
-3. **懒松鼠Flink-Boot脚手架可以满足一个项目组仅需一名开发人员具备Flink的基本知识，其他人员甚至不需要懂Flink，整个项目组都可以使用Flink框架解决业务中的痛点问题。**
-4. **[关于懒松鼠Flink-Boot脚手架工程详情移步。](https://github.com/intsmaze/flink-boot)**
-
-
-## 3.1 除此之外针对目前流行的各大Java框架，懒松鼠Flink-Boot脚手架工程也进行了集成，加快开发人员的编码速度。
-* 集成Jbcp-template对Mysql,Oracle,SQLServer等关系型数据库的快速访问。
-* 集成Hibernate Validator框架进行参数校验。
-* 集成Spring Retry框架进行重试标志。
-* 集成Mybatis框架,提高对关系型数据库增，删，改，查的开发速度。
-* 集成Spring Cache框架,实现注解式定义方法缓存。
-* ......
-
-## 3.2 技术选项和集成情况
-技术 | 名称 | 状态 | 免费版 | 会员版 |
-----|------|----|------|----
-Spring Framework | 容器  | 已集成 | 有  | 有
-Spring 基于XML方式配置Bean | 装配Bean  | 已集成 | 有  | 有
-Spring 基于注解方式配置Bean | 装配Bean  | 已集成 | 无  | 有
-Spring 基于注解声明方法重试机制 | Retry注解  | 已集成 | 无  | 有
-Spring 基于注解声明方法缓存 | Cache注解  | 已集成 | 无  | 有
-Hibernate Validator | 校验框架  | 已集成 | 无  | 有
-Druid | 数据库连接池  | 已集成 | 有  | 有
-MyBatis | ORM框架  | 已集成 | 无  | 有
-Mybatis-Plus | MyBatis扩展包  | 进行中 | 无  | 有
-PageHelper | MyBatis物理分页插件  | 进行中 | 无  | 有
-ZooKeeper | 分布式协调服务  | 进行中 | 无  | 有
-Dubbo | 分布式服务框架  | 进行中 | 无  | 有
-Redis | 分布式缓存数据库  | 进行中 | 有  | 有
-Solr & Elasticsearch | 分布式全文搜索引擎  | 进行中 | 有  | 有
-Ehcache | 进程内缓存框架  | 已集成 | 无  | 有
-Kafka | 消息队列  | 已集成 | 有  | 有
-HDFS | 分布式文件系统  | 已集成 | 有  | 有
-Log4J | 日志组件  | 已集成 | 有  | 有
-Junit | 单元测试  | 已集成 | 有  | 有
-sequence | 分布式高效ID生产  | 进行中 | 有  | 有
-Protobuf & json | 数据序列化  | 进行中 | 有  | 有
-Dubbole消费者 | 服务消费者  | 进行中 | 有  | 有
-Spring eurake消费者 | 服务消费者  | 进行中 | 有  | 有
-Apollo配置中心 | 携程阿波罗配置中心  | 进行中 | 无  | 有
-Spring Config配置中心 | Spring Cloud Config配置中心  | 进行中 | 无  | 有
 
