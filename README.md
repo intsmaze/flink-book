@@ -1,6 +1,7 @@
 # 1.《深入理解Flink核心设计与实践原理》-随书代码
 * **整个工程共有【182个Java文件】，你要的Demo这里都有。**
-### 《深入理解Flink核心设计与实践原理》一书中针对该工程中的Flink示例代码进行了大量的详细讲解，为此推荐大家购买《深入理解Flink核心设计与实践原理》一书来获得更好的学习体验。 [京东商城购买链接](https://item.jd.com/12765369.html)
+### 《深入理解Flink核心设计与实践原理》一书中针对该工程中的Flink示例代码进行了大量的详细讲解，为此推荐大家购买《深入理解Flink核心设计与实践原理》一书来获得更好的学习体验。
+## [《深入理解Flink核心设计与实践原理》京东商城购买链接](https://item.jd.com/12765369.html)
 ![image](https://github.com/intsmaze/flink-book/blob/master/fm.png)
 
 * 本书从Apache Flink的缘起开始，由浅入深，理论结合实践，全方位地介绍Apache Flink这一处理海量数据集的高性能工具。本书围绕部署、流处理、批处理、Table API和SQL四大模块进行讲解，并详细说明Apache Flink的每个特性的实际业务背景，使读者不仅能编写可运行的Apache Flink程序代码，还能深刻理解并正确地将其运用到合适的生产业务环境中。
