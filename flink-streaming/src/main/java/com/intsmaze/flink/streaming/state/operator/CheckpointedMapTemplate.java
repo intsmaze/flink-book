@@ -7,19 +7,21 @@ import org.apache.flink.api.common.state.ListStateDescriptor;
 import org.apache.flink.api.common.time.Time;
 import org.apache.flink.api.common.typeinfo.TypeHint;
 import org.apache.flink.api.common.typeinfo.TypeInformation;
+import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.configuration.Configuration;
+import org.apache.flink.contrib.streaming.state.RocksDBStateBackend;
 import org.apache.flink.runtime.state.FunctionInitializationContext;
 import org.apache.flink.runtime.state.FunctionSnapshotContext;
 import org.apache.flink.runtime.state.filesystem.FsStateBackend;
 import org.apache.flink.streaming.api.checkpoint.CheckpointedFunction;
 import org.apache.flink.streaming.api.datastream.DataStream;
+import org.apache.flink.streaming.api.environment.CheckpointConfig;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.functions.source.RichSourceFunction;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.Calendar;
-import java.util.LinkedList;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -35,7 +37,7 @@ public class CheckpointedMapTemplate implements MapFunction<Long, String>,
 
     public static Logger LOG = LoggerFactory.getLogger(CheckpointedMapTemplate.class);
 
-    private transient ListState<Long> checkpointedState;
+    private transient ListState<Tuple2<String, Long>> checkpointedState;
 
     private LinkedList<Long> bufferedElements;
 
@@ -66,24 +68,23 @@ public class CheckpointedMapTemplate implements MapFunction<Long, String>,
      * @date: 2020/10/15 18:33
      */
     @Override
-    public String map(Long value) {
-        int size = bufferedElements.size();
-        if (size >= 10) {
-            for (int i = 0; i < size - 9; i++) {
-                Long poll = bufferedElements.poll();
-            }
+    public String map(Long value) throws Exception {
+        String total="";
+        for (int i=0;i<100;i++)
+        {
+            String s = UUID.randomUUID().toString();
+            total+=s;
         }
-        bufferedElements.add(value);
-        if (isError) {
-            int seconds = Calendar.getInstance().get(Calendar.SECOND);
-            if (seconds >= 50 && seconds <= 51) {
-                int i = 1 / 0;
-            }
+        checkpointedState.add(Tuple2.of(total, value));
+        Iterable<Tuple2<String, Long>> longs = checkpointedState.get();
+        Iterator<Tuple2<String, Long>> iterator = longs.iterator();
+        Long sum = 0L;
+        while (iterator.hasNext()) {
+            Tuple2<String, Long> next = iterator.next();
+//            sum += next.f1;
+            sum++;
         }
-        LOG.info("{} map data :{}", Thread.currentThread().getName(), bufferedElements);
-        return "集合中第一个元素是:" + bufferedElements.getFirst() +
-                "集合中最后一个元素是:" + bufferedElements.getLast() +
-                " length is :" + bufferedElements.size();
+        return "集合中元素和是:" + sum;
     }
 
     /**
@@ -100,8 +101,8 @@ public class CheckpointedMapTemplate implements MapFunction<Long, String>,
                 + context.getCheckpointTimestamp() + "............................snapshotState");
         LOG.info("{} 快照编号{} 的元素为:{}", Thread.currentThread().getName()
                 , context.getCheckpointId(), bufferedElements);
-        checkpointedState.clear();
-        checkpointedState.addAll(bufferedElements);
+//        checkpointedState.clear();
+//        checkpointedState.addAll(bufferedElements);
     }
 
     /**
@@ -114,10 +115,10 @@ public class CheckpointedMapTemplate implements MapFunction<Long, String>,
      */
     @Override
     public void initializeState(FunctionInitializationContext context) throws Exception {
-        ListStateDescriptor<Long> descriptor =
-                new ListStateDescriptor<Long>(
+        ListStateDescriptor<Tuple2<String, Long>> descriptor =
+                new ListStateDescriptor<Tuple2<String, Long>>(
                         "CheckpointedFunctionTemplate-ListState",
-                        TypeInformation.of(new TypeHint<Long>() {
+                        TypeInformation.of(new TypeHint<Tuple2<String, Long>>() {
                         }));
         String threadName = Thread.currentThread().getName();
         if (isUnion) {
@@ -125,12 +126,12 @@ public class CheckpointedMapTemplate implements MapFunction<Long, String>,
         } else {
             checkpointedState = context.getOperatorStateStore().getListState(descriptor);
         }
-        if (context.isRestored()) {
-            LOG.info("{} operator状态恢复", threadName);
-            for (Long element : checkpointedState.get()) {
-                bufferedElements.offer(element);
-            }
-        }
+//        if (context.isRestored()) {
+//            LOG.info("{} operator状态恢复", threadName);
+//            for (Tuple2<String, Long> element : checkpointedState.get()) {
+//                bufferedElements.offer(element);
+//            }
+//        }
         LOG.info("{} operator状态初始化/恢复{}", threadName, bufferedElements);
     }
 
@@ -145,24 +146,29 @@ public class CheckpointedMapTemplate implements MapFunction<Long, String>,
     public static void main(String[] args) throws Exception {
 
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
-        env.enableCheckpointing(10000);
+        env.enableCheckpointing(60000);
+        env.getCheckpointConfig().setMinPauseBetweenCheckpoints(5000);
+        env.getCheckpointConfig().setMaxConcurrentCheckpoints(1);
+        env.getCheckpointConfig().setFailOnCheckpointingErrors(false);
+        env.getCheckpointConfig().enableExternalizedCheckpoints(CheckpointConfig.ExternalizedCheckpointCleanup.RETAIN_ON_CANCELLATION);
+
         env.setParallelism(2);
 
         String path = "file:///home/intsmaze/flink/check/CheckpointedFunctionTemplate";
-        FsStateBackend stateBackend = new FsStateBackend(path);
+        RocksDBStateBackend stateBackend = new RocksDBStateBackend(path,true);
         env.setStateBackend(stateBackend);
         env.setRestartStrategy(RestartStrategies.failureRateRestart(
                 3,
                 Time.of(5, TimeUnit.MINUTES),
-                Time.of(10, TimeUnit.SECONDS)
+                Time.of(60, TimeUnit.SECONDS)
         ));
 
         DataStream<Long> streamSource = env.addSource(new CustomSource())
                 .setParallelism(1);
         DataStream<String> mapResult = streamSource
-                .map(new CheckpointedMapTemplate(false, true));
+                .map(new CheckpointedMapTemplate(false, false));
         mapResult.print("输出结果");
-        env.execute("Intsmaze CheckpointedFunctionTemplate");
+        env.execute("fast CheckpointedFunctionTemplate");
     }
 
 
@@ -190,7 +196,7 @@ public class CheckpointedMapTemplate implements MapFunction<Long, String>,
          */
         @Override
         public void open(Configuration parameters) throws Exception {
-            Thread.sleep(10000);
+            Thread.sleep(1000);
         }
 
         /**
@@ -208,7 +214,7 @@ public class CheckpointedMapTemplate implements MapFunction<Long, String>,
                 LOG.info("{}{}{}", Thread.currentThread().getName(), ":发送数据:", offset);
                 ctx.collect(offset);
                 offset += 1;
-                Thread.sleep(1000);
+                Thread.sleep(5);
             }
         }
 
