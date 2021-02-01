@@ -95,4 +95,8 @@ public class PrepareData {
         return orderList;
     }
 
+    public static void main(String[] args) {
+
+    }
+
 }

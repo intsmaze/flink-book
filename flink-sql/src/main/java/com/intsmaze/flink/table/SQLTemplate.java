@@ -2,10 +2,10 @@ package com.intsmaze.flink.table;
 
 import org.apache.flink.api.common.typeinfo.TypeInformation;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
+import org.apache.flink.table.api.EnvironmentSettings;
 import org.apache.flink.table.api.Table;
-import org.apache.flink.table.api.TableEnvironment;
 import org.apache.flink.table.api.Types;
-import org.apache.flink.table.api.java.StreamTableEnvironment;
+import org.apache.flink.table.api.bridge.java.StreamTableEnvironment;
 import org.apache.flink.table.sources.CsvTableSource;
 import org.apache.flink.table.sources.TableSource;
 import org.apache.flink.types.Row;
@@ -29,8 +29,12 @@ public class SQLTemplate {
      * @date: 2020/10/15 18:33
      */
     public static void main(String[] args) throws Exception {
+
+        EnvironmentSettings fsSettings = EnvironmentSettings.newInstance().useBlinkPlanner().inStreamingMode().build();
+
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
-        StreamTableEnvironment tableEnv = TableEnvironment.getTableEnvironment(env);
+
+        StreamTableEnvironment tableEnv = StreamTableEnvironment.create(env, fsSettings);
 
         String[] fieldNames = {"name", "age", "city"};
 

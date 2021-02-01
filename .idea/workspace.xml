@@ -5,7 +5,261 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f4ff7a1-01c6-4ce2-a2ce-db0b2f267f8c" name="Default Changelist" comment="深入理解Flink核心设计与实践原理">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_data_artisans_frocksdbjni_5_17_2_artisans_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_luben_zstd_jni_1_4_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_actor_2_11_2_5_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_actor_2_12_2_5_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_protobuf_2_11_2_5_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_protobuf_2_12_2_5_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_slf4j_2_11_2_5_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_slf4j_2_12_2_5_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_stream_2_11_2_5_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_stream_2_12_2_5_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_config_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_ssl_config_core_2_11_0_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_ssl_config_core_2_12_0_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_3_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_1_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_calcite_avatica_avatica_core_1_17_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_annotations_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_annotations_1_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_avro_1_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_clients_2_11_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_clients_2_11_1_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_clients_2_12_1_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_base_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_files_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_kafka_2_12_1_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_wikiedits_2_12_1_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_core_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_core_1_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_file_sink_common_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_file_sink_common_1_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_hadoop_fs_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_hadoop_fs_1_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_java_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_java_1_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_metrics_core_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_metrics_core_1_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_metrics_dropwizard_1_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_optimizer_2_11_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_optimizer_2_11_1_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_optimizer_2_12_1_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_queryable_state_client_java_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_queryable_state_client_java_1_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_runtime_2_11_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_runtime_2_11_1_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_runtime_2_12_1_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_runtime_2_12_test_jar_tests_1_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_scala_2_11_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_asm_7_7_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_guava_18_0_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_jackson_2_10_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_netty_4_1_49_Final_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_zookeeper_3_3_4_14_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_statebackend_rocksdb_2_12_1_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_streaming_java_2_11_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_streaming_java_2_11_1_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_streaming_java_2_12_1_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_streaming_scala_2_11_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_table_api_java_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_table_api_java_bridge_2_11_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_table_api_scala_2_11_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_table_api_scala_bridge_2_11_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_table_common_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_table_planner_blink_2_11_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_table_runtime_blink_2_11_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_test_utils_2_12_1_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_test_utils_junit_1_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_force_shading_1_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_force_shading_1_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_commons_compiler_3_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_janino_3_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_11_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_12_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-new-sql/flink-new-sql.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-new-sql/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_29.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_29.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_kryo_2_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_kryo_2_24_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_minlog_minlog_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_minlog_minlog_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_scopt_scopt_2_11_3_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_scopt_scopt_2_11_3_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_scopt_scopt_2_12_3_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_scopt_scopt_2_12_3_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_23_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_23_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_2_11_0_7_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_2_11_0_7_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_2_12_0_7_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_2_12_0_7_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_java_0_7_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_java_0_7_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_actor_2_11_2_4_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_actor_2_11_2_4_20.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_actor_2_12_2_4_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_protobuf_2_11_2_4_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_protobuf_2_11_2_4_20.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_protobuf_2_12_2_4_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_slf4j_2_11_2_4_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_slf4j_2_11_2_4_20.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_slf4j_2_12_2_4_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_stream_2_11_2_4_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_stream_2_11_2_4_20.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_stream_2_12_2_4_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_config_1_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_config_1_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_ssl_config_core_2_11_0_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_ssl_config_core_2_11_0_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_ssl_config_core_2_12_0_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_ruedigermoeller_fst_2_40.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_ruedigermoeller_fst_2_40.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_3_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_1_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_dbcp2_2_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_dbcp2_2_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_test_2_12_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_test_2_12_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_annotations_1_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_annotations_1_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_avro_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_clients_2_11_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_clients_2_12_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_kafka_2_12_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_kafka_base_2_12_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_wikiedits_2_12_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_core_1_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_core_1_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_hadoop_fs_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_java_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_jdbc_2_11_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_metrics_core_1_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_metrics_core_1_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_metrics_dropwizard_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_optimizer_2_11_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_optimizer_2_12_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_queryable_state_client_java_2_11_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_queryable_state_client_java_2_12_1_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_queryable_state_client_java_2_12_1_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_runtime_2_11_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_runtime_2_12_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_runtime_2_12_test_jar_tests_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_scala_2_11_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_asm_5_0_4_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_asm_5_0_4_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_asm_6_6_2_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_guava_18_0_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_guava_18_0_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_jackson_2_7_9_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_netty_4_1_24_Final_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_netty_4_1_24_Final_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_statebackend_rocksdb_2_12_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_streaming_java_2_11_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_streaming_java_2_12_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_streaming_scala_2_11_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_table_2_11_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_test_utils_2_12_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_test_utils_junit_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_force_shading_1_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_force_shading_1_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_clapper_grizzled_slf4j_2_11_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_clapper_grizzled_slf4j_2_11_1_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_clapper_grizzled_slf4j_2_12_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_clapper_grizzled_slf4j_2_12_1_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_19_0_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_19_0_GA.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_rocksdb_rocksdbjni_5_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_java8_compat_2_11_0_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_java8_compat_2_11_0_7_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_java8_compat_2_12_0_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_java8_compat_2_12_0_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_12_1_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_xml_2_11_1_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_xml_2_11_1_0_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_compiler_2_11_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_compiler_2_11_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_12_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_12_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_11_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_11_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_schwering_irclib_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_schwering_irclib_1_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_21.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_tukaani_xz_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-dataset/flink-dataset.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-dataset/flink-dataset.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-queay-state/flink-queay-state.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-queay-state/flink-queay-state.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-sql/flink-sql.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-sql/flink-sql.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-sql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-sql/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/PrepareData.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/PrepareData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/SQLTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/SQLTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/StreamTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-new-sql/src/main/java/com/intsmaze/flink/sql/StreamTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/TableApiTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/TableApiTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/connector/CsvSinkTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/connector/CsvSinkTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/connector/KafkaConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/connector/KafkaConnector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/register/RegisterTableTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/register/RegisterTableTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/sqlapi/GroupTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/sqlapi/GroupTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/sqlapi/InTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/sqlapi/InTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/sqlapi/InsertIntoTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/sqlapi/InsertIntoTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/sqlapi/JoinTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/sqlapi/JoinTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/sqlapi/UnionTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/sqlapi/UnionTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/sqlapi/groupwindows/TableSourceTimeAttributesTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/sqlapi/groupwindows/TableSourceTimeAttributesTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/typemap/TableConvertDataStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/typemap/TableConvertDataStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/udf/aggre/AggregateFunctionTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/udf/aggre/AggregateFunctionTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/udf/table/TableFunctionTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/udf/table/TableFunctionTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-sql/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-streaming/flink-streaming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-streaming/flink-streaming.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-streaming/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-streaming/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/connector/source/KafkaKeyedDeserializationSchema.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/connector/source/KafkaKeyedDeserializationSchema.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/connector/source/KafkaSourceTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/connector/source/KafkaSourceTemplate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/operator/base/IterateTemplate$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/operator/base/IterateTemplate$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/operator/base/IterateTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/operator/base/SplitTemplate$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/operator/base/SplitTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/restart/FailureRateFixedDelayRestart.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/restart/FailureRateFixedDelayRestart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/sideoutput/SideOutputTemplate$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/sideoutput/SideOutputTemplate$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/sideoutput/SideOutputTemplate$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/sideoutput/SideOutputTemplate$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/sideoutput/SideOutputTemplate$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/sideoutput/SideOutputTemplate$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/sideoutput/SideOutputTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/state/operator/CheckpointedMapTemplate$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/state/operator/CheckpointedMapTemplate$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/state/operator/CheckpointedMapTemplate$CustomSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/state/operator/CheckpointedMapTemplate$CustomSource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/state/operator/CheckpointedMapTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/state/operator/CheckpointedMapTemplate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/state/operator/ListCheckpointedMapTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/state/operator/ListCheckpointedMapTemplate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/state/stateback/RocksDBOptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/window/process/ProcessWindowFoldTemplate$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/window/process/ProcessWindowFoldTemplate$UserDefinedProcessWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/window/process/ProcessWindowFoldTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/window/process/WindowFoldTemplate$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/window/process/WindowFoldTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/window/process/WindowsDesc.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink-streaming/target/classes/com/intsmaze/flink/streaming/window/process/WindowsDesc.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/flink-streaming/target/" />
@@ -13,6 +267,8 @@
     <ignored path="$PROJECT_DIR$/flink-sql/target/" />
     <ignored path="$PROJECT_DIR$/flink-dataset/target/" />
     <ignored path="$PROJECT_DIR$/flink-queay-state/target/" />
+    <ignored path="$PROJECT_DIR$/flink-sql/flink-new-sql/target/" />
+    <ignored path="$PROJECT_DIR$/flink-new-sql/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,15 +276,78 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/flink-streaming/src/main/java/com/intsmaze/flink/streaming/sideoutput/SideOutputTemplate.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flink-sql/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/SQLTemplate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="36" column="89" selection-start-line="32" selection-start-column="6" selection-end-line="36" selection-end-column="89" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flink-new-sql/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5">
+              <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/develop/maven/apache-maven-3.0.5/repository/repository/org/apache/flink/flink-table-api-java/1.12.0/flink-table-api-java-1.12.0.jar!/org/apache/flink/table/api/TableEnvironment.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="24" column="44" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="54" />
+              <folding>
+                <element signature="e#981#982#0" expanded="true" />
+                <element signature="e#1041#1042#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/develop/maven/apache-maven-3.0.5/repository/repository/org/apache/flink/flink-table-api-java/1.12.0/flink-table-api-java-1.12.0.jar!/org/apache/flink/table/api/EnvironmentSettings.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/flink-new-sql/src/main/java/com/intsmaze/flink/sql/StreamTemplate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="37" column="58" lean-forward="true" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/ExplainingTemplate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -74,24 +393,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/schema/OrderEventSchema.java" />
-        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/sideoutput/SideOutputTemplate.java" />
-        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/broadcast/BroadcastStateTemplate.java" />
-        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/key/AggregatingStateFlatMap.java" />
-        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/key/KeyStateBase.java" />
-        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/key/ListStateFlatMap.java" />
-        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/key/MapStateFlatMap.java" />
-        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/key/ReducingStateFlatMap.java" />
-        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/key/TTLStateFlatMap.java" />
-        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/key/ValueStateFlatMap.java" />
-        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/operator/CheckpointedMapTemplate.java" />
-        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/operator/ListCheckpointedMapTemplate.java" />
-        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/savepoint/SavePointedTemplate.java" />
-        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/stateback/RocksDBOptions.java" />
-        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/join/ClickBean.java" />
-        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/join/IntervalJoinTemplate.java" />
-        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/join/PrepareData.java" />
-        <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/join/Trade.java" />
         <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/join/TumblingWindowCoGroupTemplate.java" />
         <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/join/TumblingWindowJoinTemplate.java" />
         <option value="$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/evitor/CountEvictorDebug.java" />
@@ -123,8 +424,26 @@
         <option value="$PROJECT_DIR$/flink-queay-state/pom.xml" />
         <option value="$PROJECT_DIR$/flink-queay-state/src/main/java/com/intsmaze/flink/query/QueryStateClient.java" />
         <option value="$PROJECT_DIR$/flink-stream/pom.xml" />
-        <option value="$PROJECT_DIR$/flink-streaming/pom.xml" />
         <option value="$PROJECT_DIR$/flink-streaming/src/main/java/com/intsmaze/flink/streaming/sideoutput/SideOutputTemplate.java" />
+        <option value="$PROJECT_DIR$/flink-streaming/pom.xml" />
+        <option value="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/PrepareData.java" />
+        <option value="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/connector/CsvSinkTemplate.java" />
+        <option value="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/connector/KafkaConnector.java" />
+        <option value="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/register/RegisterTableTemplate.java" />
+        <option value="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/sqlapi/GroupTemplate.java" />
+        <option value="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/sqlapi/InsertIntoTemplate.java" />
+        <option value="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/sqlapi/InTemplate.java" />
+        <option value="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/sqlapi/JoinTemplate.java" />
+        <option value="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/sqlapi/UnionTemplate.java" />
+        <option value="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/sqlapi/groupwindows/TableSourceTimeAttributesTemplate.java" />
+        <option value="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/typemap/TableConvertDataStream.java" />
+        <option value="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/udf/aggre/AggregateFunctionTemplate.java" />
+        <option value="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/udf/table/TableFunctionTemplate.java" />
+        <option value="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/TableApiTemplate.java" />
+        <option value="$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/SQLTemplate.java" />
+        <option value="$PROJECT_DIR$/flink-sql/pom.xml" />
+        <option value="$PROJECT_DIR$/flink-new-sql/pom.xml" />
+        <option value="$PROJECT_DIR$/flink-new-sql/src/main/java/com/intsmaze/flink/sql/StreamTemplate.java" />
       </list>
     </option>
   </component>
@@ -141,10 +460,30 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="769" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="flink-sql" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="flink-sql" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="flink-streaming" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="767" />
     <option name="y" value="10" />
-    <option name="width" value="1941" />
+    <option name="width" value="1943" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
@@ -153,7 +492,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,25 +502,60 @@
             <path>
               <item name="flink-book" type="b2602c69:ProjectViewProjectNode" />
               <item name="flink-book" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-new-sql" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flink-book" type="b2602c69:ProjectViewProjectNode" />
               <item name="flink-book" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-new-sql" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flink-book" type="b2602c69:ProjectViewProjectNode" />
               <item name="flink-book" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-new-sql" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flink-book" type="b2602c69:ProjectViewProjectNode" />
               <item name="flink-book" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-new-sql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-book" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-new-sql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-book" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-book" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-sql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-book" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-sql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-book" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-sql" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -190,34 +563,26 @@
             <path>
               <item name="flink-book" type="b2602c69:ProjectViewProjectNode" />
               <item name="flink-book" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-sql" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="streaming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flink-book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flink-book" type="462c0819:PsiDirectoryNode" />
-              <item name="flink-streaming" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="streaming" type="462c0819:PsiDirectoryNode" />
-              <item name="sideoutput" type="462c0819:PsiDirectoryNode" />
+              <item name="table" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606616759813" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612172738172" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/flink-streaming" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/flink-new-sql" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -226,21 +591,22 @@
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\develop\flink-book\flink-dataset\src\test\resources" />
-      <recent name="D:\develop\flink-book\flink-dataset\src\main\resources" />
-      <recent name="D:\develop\flink-book\flink-dataset\src\main\java" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.intsmaze.flink.query" />
-      <recent name="com.intsmaze.flink.streaming.window.time" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GithubCode\flink-book" />
       <recent name="D:\develop1\flink-book" />
       <recent name="D:\develop1\flink-book\flink-streaming\src\main\resources" />
       <recent name="D:\develop1\flink-book\flink-streaming\src\main\java" />
       <recent name="D:\develop\flink-book" />
-      <recent name="D:\develop\flink-book\flink-sql\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.intsmaze.flink.sql" />
+      <recent name="com.intsmaze.flink.query" />
+      <recent name="com.intsmaze.flink.streaming.window.time" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\develop\flink-book\flink-dataset\src\test\resources" />
+      <recent name="D:\develop\flink-book\flink-dataset\src\main\resources" />
+      <recent name="D:\develop\flink-book\flink-dataset\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -255,13 +621,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SideOutputTemplate.testSideOutput">
-    <configuration name="ConstructorTemplate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.intsmaze.flink.streaming.param.ConstructorTemplate" />
-      <module name="flink-stream" />
+  <component name="RunManager" selected="Application.StreamTemplate">
+    <configuration name="PrepareData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.intsmaze.flink.table.PrepareData" />
+      <module name="flink-sql" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.intsmaze.flink.streaming.param.*" />
+          <option name="PATTERN" value="com.intsmaze.flink.table.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -269,12 +635,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntervalJoinTemplate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.intsmaze.flink.streaming.window.join.IntervalJoinTemplate" />
-      <module name="flink-stream" />
+    <configuration name="StreamTemplate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.intsmaze.flink.sql.StreamTemplate" />
+      <module name="flink-new-sql" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.intsmaze.flink.streaming.window.join.*" />
+          <option name="PATTERN" value="com.intsmaze.flink.sql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -284,7 +650,7 @@
     </configuration>
     <configuration name="WordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.intsmaze.flink.streaming.helloworld.WordCount" />
-      <module name="flink-stream" />
+      <module name="flink-streaming" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.intsmaze.flink.streaming.helloworld.*" />
@@ -329,11 +695,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SideOutputTemplate.testSideOutput" />
+        <item itemvalue="Application.StreamTemplate" />
+        <item itemvalue="Application.PrepareData" />
         <item itemvalue="Application.WordCount" />
+        <item itemvalue="JUnit.SideOutputTemplate.testSideOutput" />
         <item itemvalue="JUnit.JoinTemplate.testDataSet" />
-        <item itemvalue="Application.ConstructorTemplate" />
-        <item itemvalue="Application.IntervalJoinTemplate" />
       </list>
     </recent_temporary>
   </component>
@@ -382,6 +748,8 @@
       <workItem from="1606305109170" duration="1307000" />
       <workItem from="1606613695867" duration="63000" />
       <workItem from="1606614846609" duration="1695000" />
+      <workItem from="1612170831379" duration="359000" />
+      <workItem from="1612171283434" duration="1431000" />
     </task>
     <task id="LOCAL-00001" summary="备份">
       <created>1596470102418</created>
@@ -591,13 +959,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117842000" />
+    <option name="totallyTimeSpent" value="120135000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25707355" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2546917" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -606,7 +974,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5186501" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21246459" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -614,17 +982,18 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.42273533" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3250444" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3250444" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.38543516" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3753541" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.4742451" />
+      <window_info anchor="bottom" id="Tail" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.1541555" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
@@ -663,31 +1032,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/key/AggregatingStateFlatMap.java" />
-    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/key/AverageAccumulator.java" />
-    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/key/KeyStateBase.java" />
-    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/key/ListStateFlatMap.java" />
-    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/key/MapStateFlatMap.java" />
-    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/key/ReducingStateFlatMap.java" />
-    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/key/TTLStateFlatMap.java" />
-    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/key/ValueStateFlatMap.java" />
-    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/operator/CheckpointedMapTemplate.java" />
-    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/operator/ListCheckpointedMapTemplate.java" />
-    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/savepoint/SavePointedTemplate.java" />
-    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/state/stateback/RocksDBOptions.java" />
-    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/join/ClickBean.java" />
-    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/join/IntervalJoinTemplate.java" />
-    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/join/PrepareData.java" />
-    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/join/Trade.java" />
-    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/join/TumblingWindowCoGroupTemplate.java" />
-    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/join/TumblingWindowJoinTemplate.java" />
-    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/evitor/CountEvictorDebug.java" />
-    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/evitor/TumblingWindowEvitorTemplate.java" />
-    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/lateness/EventTimeTriggerDebug.java" />
-    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/trigger/CountTriggerDebug.java" />
-    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/trigger/TumblingWindowTriggerTemplate.java" />
-    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/windows/WindowsTemplate.java" />
-    <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/ApplyWindowTemplate.java" />
     <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/CustomWindowAggregateTemplate.java" />
     <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/ProcessWindowAggregateTemplate.java" />
     <entry file="file://$PROJECT_DIR$/flinkstreaming/src/main/java/com/intsmaze/flink/streaming/window/process/ProcessWindowFoldTemplate.java" />
@@ -719,13 +1063,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flink-stream/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/flink-streaming/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4009">
-          <caret line="211" column="12" selection-start-line="211" selection-start-column="12" selection-end-line="211" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flink-streaming/src/main/java/com/intsmaze/flink/streaming/programpackage/PackageProgram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -750,6 +1087,207 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/flink-streaming/src/main/java/com/intsmaze/flink/streaming/partition/BroadcastTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-streaming/src/main/java/com/intsmaze/flink/streaming/state/operator/CheckpointedMapTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="124" column="94" selection-start-line="124" selection-start-column="94" selection-end-line="124" selection-end-column="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-streaming/src/main/java/com/intsmaze/flink/streaming/helloworld/WordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/PrepareData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1087">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-streaming/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/connector/CsvSinkTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="24" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/connector/KafkaConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="25" selection-start-column="2" selection-end-line="130" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/register/RegisterTableTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="23" column="28" lean-forward="true" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/sqlapi/GroupTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="32" column="8" lean-forward="true" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/sqlapi/InsertIntoTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="32" column="17" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/sqlapi/InTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="36" column="9" lean-forward="true" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/sqlapi/JoinTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="44" column="29" lean-forward="true" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/sqlapi/UnionTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="31" column="9" lean-forward="true" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/sqlapi/groupwindows/TableSourceTimeAttributesTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="38" column="30" lean-forward="true" selection-end-line="328" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/typemap/TableConvertDataStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="30" column="26" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/udf/table/TableFunctionTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="28" column="9" lean-forward="true" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/TableApiTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="19" column="5" lean-forward="true" selection-start-column="2" selection-end-line="48" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/udf/aggre/AggregateFunctionTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="133" column="29" selection-end-line="142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/ExplainingTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/develop/maven/apache-maven-3.0.5/repository/repository/org/apache/flink/flink-table-api-java/1.12.0/flink-table-api-java-1.12.0.jar!/org/apache/flink/table/api/TableEnvironment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="54" />
+          <folding>
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-sql/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/StreamTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/develop/maven/apache-maven-3.0.5/repository/repository/org/apache/flink/flink-table-api-java/1.12.0/flink-table-api-java-1.12.0.jar!/org/apache/flink/table/api/EnvironmentSettings.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-sql/src/main/java/com/intsmaze/flink/table/SQLTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="36" column="89" selection-start-line="32" selection-start-column="6" selection-end-line="36" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-new-sql/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-new-sql/src/main/java/com/intsmaze/flink/sql/StreamTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="37" column="58" lean-forward="true" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -767,7 +1305,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -803,12 +1341,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>flink-streaming</last-edited>
+          <last-edited>flink-new-sql</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

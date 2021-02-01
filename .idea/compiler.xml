@@ -7,13 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="flink-dataset" />
+        <module name="flink-new-sql" />
         <module name="flink-queay-state" />
-        <module name="flink-sql" />
         <module name="flink-streaming" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="flink-dataset" target="1.8" />
+      <module name="flink-new-sql" target="1.8" />
       <module name="flink-queay-state" target="1.8" />
       <module name="flink-sql" target="1.8" />
       <module name="flink-stream" target="1.8" />
