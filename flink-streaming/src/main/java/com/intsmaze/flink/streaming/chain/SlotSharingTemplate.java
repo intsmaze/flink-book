@@ -16,7 +16,7 @@ import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
  * @auther: intsmaze(刘洋)
  * @date: 2020/10/15 18:33
  */
-public class SoltSharingTemplate {
+public class SlotSharingTemplate {
 
     /**
      * github地址: https://github.com/intsmaze
